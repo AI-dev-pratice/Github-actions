@@ -11,3 +11,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  my-first-job-1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Job 1
+        run: world!      
